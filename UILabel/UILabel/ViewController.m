@@ -16,6 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(10, 20, 200, 300)];
+    label.text = @"Do any additional setup after loading the view, typically from a nib";
+    label.backgroundColor = [UIColor blackColor];
+    label.textColor = [UIColor redColor];
+    label.font = [UIFont boldSystemFontOfSize:25];
+    label.numberOfLines = 0;
+    label.lineBreakMode = NSLineBreakByWordWrapping;
+    [self.view addSubview:label];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
