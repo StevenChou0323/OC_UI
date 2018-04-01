@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //http://www.ryanwright.me/cookbook/apple-developer/ios/obj-c/ui-library/uinavigationcontrolle/set-root-controller
+    //set the window object
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //NOTE WE NEED TO CREATE AN INSTANCE OF A VIEW TO LOAD
+    //create an instance of our view controller that
+    //METHOD #1 - empty view
+    //this will create an empty view(black) which we can them customize in the ViewDidLoad Method
+    ViewController *viewController = [[ViewController alloc] init];
+    
+    //METHOD #2 - Load View Using A XIB File
+    //if we designed our view on a XIB file we could instantiate our with it.
+    //ViewController *viewController = [[ViewController alloc] initWithNibName:@"MainView" bundle:nil];
+    
+    //METHOD #3 - Load A StoryBoard ViewController
+    //if we designed our view on the storyboard
+    //ViewController *myViewController=[[UIStoryboard storyboardWithName:@"Main" bundle:nil]
+    //                                  instantiateViewControllerWithIdentifier:@"firstView"]
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    //set our controller as the root controller(initial controller)
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
