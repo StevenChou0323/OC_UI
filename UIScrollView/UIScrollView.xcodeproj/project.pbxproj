@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84B54839206F805A00E3ADBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B54838206F805A00E3ADBA /* main.m */; };
-		84B5483C206F805A00E3ADBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5483B206F805A00E3ADBA /* AppDelegate.m */; };
-		84B5483F206F805A00E3ADBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5483E206F805A00E3ADBA /* ViewController.m */; };
-		84B54842206F805A00E3ADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B54840206F805A00E3ADBA /* Main.storyboard */; };
-		84B54844206F805A00E3ADBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B54843206F805A00E3ADBA /* Assets.xcassets */; };
-		84B54847206F805A00E3ADBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B54845206F805A00E3ADBA /* LaunchScreen.storyboard */; };
+		8423DE402072833300A6B11A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DE3F2072833300A6B11A /* main.m */; };
+		8423DE432072833300A6B11A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DE422072833300A6B11A /* AppDelegate.m */; };
+		8423DE462072833300A6B11A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423DE452072833300A6B11A /* ViewController.m */; };
+		8423DE492072833300A6B11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423DE472072833300A6B11A /* Main.storyboard */; };
+		8423DE4B2072833300A6B11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423DE4A2072833300A6B11A /* Assets.xcassets */; };
+		8423DE4E2072833300A6B11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423DE4C2072833300A6B11A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84B54834206F805A00E3ADBA /* UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B54838206F805A00E3ADBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B5483A206F805A00E3ADBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84B5483B206F805A00E3ADBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84B5483D206F805A00E3ADBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84B5483E206F805A00E3ADBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84B54841206F805A00E3ADBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84B54843206F805A00E3ADBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84B54846206F805A00E3ADBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84B54848206F805A00E3ADBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423DE3B2072833300A6B11A /* UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8423DE3F2072833300A6B11A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8423DE412072833300A6B11A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8423DE422072833300A6B11A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8423DE442072833300A6B11A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8423DE452072833300A6B11A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8423DE482072833300A6B11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8423DE4A2072833300A6B11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8423DE4D2072833300A6B11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8423DE4F2072833300A6B11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84B54831206F805A00E3ADBA /* Frameworks */ = {
+		8423DE382072833300A6B11A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,42 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84B5482B206F805A00E3ADBA = {
+		8423DE322072833300A6B11A = {
 			isa = PBXGroup;
 			children = (
-				84B54836206F805A00E3ADBA /* UINavigationController */,
-				84B54835206F805A00E3ADBA /* Products */,
+				8423DE3D2072833300A6B11A /* UIScrollView */,
+				8423DE3C2072833300A6B11A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84B54835206F805A00E3ADBA /* Products */ = {
+		8423DE3C2072833300A6B11A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84B54834206F805A00E3ADBA /* UINavigationController.app */,
+				8423DE3B2072833300A6B11A /* UIScrollView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84B54836206F805A00E3ADBA /* UINavigationController */ = {
+		8423DE3D2072833300A6B11A /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				84B5483A206F805A00E3ADBA /* AppDelegate.h */,
-				84B5483B206F805A00E3ADBA /* AppDelegate.m */,
-				84B5483D206F805A00E3ADBA /* ViewController.h */,
-				84B5483E206F805A00E3ADBA /* ViewController.m */,
-				84B54840206F805A00E3ADBA /* Main.storyboard */,
-				84B54843206F805A00E3ADBA /* Assets.xcassets */,
-				84B54845206F805A00E3ADBA /* LaunchScreen.storyboard */,
-				84B54848206F805A00E3ADBA /* Info.plist */,
-				84B54837206F805A00E3ADBA /* Supporting Files */,
+				8423DE412072833300A6B11A /* AppDelegate.h */,
+				8423DE422072833300A6B11A /* AppDelegate.m */,
+				8423DE442072833300A6B11A /* ViewController.h */,
+				8423DE452072833300A6B11A /* ViewController.m */,
+				8423DE472072833300A6B11A /* Main.storyboard */,
+				8423DE4A2072833300A6B11A /* Assets.xcassets */,
+				8423DE4C2072833300A6B11A /* LaunchScreen.storyboard */,
+				8423DE4F2072833300A6B11A /* Info.plist */,
+				8423DE3E2072833300A6B11A /* Supporting Files */,
 			);
-			path = UINavigationController;
+			path = UIScrollView;
 			sourceTree = "<group>";
 		};
-		84B54837206F805A00E3ADBA /* Supporting Files */ = {
+		8423DE3E2072833300A6B11A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84B54838206F805A00E3ADBA /* main.m */,
+				8423DE3F2072833300A6B11A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -82,40 +82,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84B54833206F805A00E3ADBA /* UINavigationController */ = {
+		8423DE3A2072833300A6B11A /* UIScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84B5484B206F805A00E3ADBA /* Build configuration list for PBXNativeTarget "UINavigationController" */;
+			buildConfigurationList = 8423DE522072833300A6B11A /* Build configuration list for PBXNativeTarget "UIScrollView" */;
 			buildPhases = (
-				84B54830206F805A00E3ADBA /* Sources */,
-				84B54831206F805A00E3ADBA /* Frameworks */,
-				84B54832206F805A00E3ADBA /* Resources */,
+				8423DE372072833300A6B11A /* Sources */,
+				8423DE382072833300A6B11A /* Frameworks */,
+				8423DE392072833300A6B11A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UINavigationController;
-			productName = UINavigationController;
-			productReference = 84B54834206F805A00E3ADBA /* UINavigationController.app */;
+			name = UIScrollView;
+			productName = UIScrollView;
+			productReference = 8423DE3B2072833300A6B11A /* UIScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84B5482C206F805A00E3ADBA /* Project object */ = {
+		8423DE332072833300A6B11A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "周建宏";
 				TargetAttributes = {
-					84B54833206F805A00E3ADBA = {
+					8423DE3A2072833300A6B11A = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HQBXE323KS;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 84B5482F206F805A00E3ADBA /* Build configuration list for PBXProject "UINavigationController" */;
+			buildConfigurationList = 8423DE362072833300A6B11A /* Build configuration list for PBXProject "UIScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,55 +123,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 84B5482B206F805A00E3ADBA;
-			productRefGroup = 84B54835206F805A00E3ADBA /* Products */;
+			mainGroup = 8423DE322072833300A6B11A;
+			productRefGroup = 8423DE3C2072833300A6B11A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84B54833206F805A00E3ADBA /* UINavigationController */,
+				8423DE3A2072833300A6B11A /* UIScrollView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84B54832206F805A00E3ADBA /* Resources */ = {
+		8423DE392072833300A6B11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B54847206F805A00E3ADBA /* LaunchScreen.storyboard in Resources */,
-				84B54844206F805A00E3ADBA /* Assets.xcassets in Resources */,
-				84B54842206F805A00E3ADBA /* Main.storyboard in Resources */,
+				8423DE4E2072833300A6B11A /* LaunchScreen.storyboard in Resources */,
+				8423DE4B2072833300A6B11A /* Assets.xcassets in Resources */,
+				8423DE492072833300A6B11A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84B54830206F805A00E3ADBA /* Sources */ = {
+		8423DE372072833300A6B11A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B5483F206F805A00E3ADBA /* ViewController.m in Sources */,
-				84B5483C206F805A00E3ADBA /* AppDelegate.m in Sources */,
-				84B54839206F805A00E3ADBA /* main.m in Sources */,
+				8423DE462072833300A6B11A /* ViewController.m in Sources */,
+				8423DE432072833300A6B11A /* AppDelegate.m in Sources */,
+				8423DE402072833300A6B11A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84B54840206F805A00E3ADBA /* Main.storyboard */ = {
+		8423DE472072833300A6B11A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84B54841206F805A00E3ADBA /* Base */,
+				8423DE482072833300A6B11A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84B54845206F805A00E3ADBA /* LaunchScreen.storyboard */ = {
+		8423DE4C2072833300A6B11A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84B54846206F805A00E3ADBA /* Base */,
+				8423DE4D2072833300A6B11A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84B54849206F805A00E3ADBA /* Debug */ = {
+		8423DE502072833300A6B11A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		84B5484A206F805A00E3ADBA /* Release */ = {
+		8423DE512072833300A6B11A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,26 +271,26 @@
 			};
 			name = Release;
 		};
-		84B5484C206F805A00E3ADBA /* Debug */ = {
+		8423DE532072833300A6B11A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HQBXE323KS;
-				INFOPLIST_FILE = UINavigationController/Info.plist;
+				INFOPLIST_FILE = UIScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevenchou.UINavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenchou.UIScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		84B5484D206F805A00E3ADBA /* Release */ = {
+		8423DE542072833300A6B11A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HQBXE323KS;
-				INFOPLIST_FILE = UINavigationController/Info.plist;
+				INFOPLIST_FILE = UIScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevenchou.UINavigationController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevenchou.UIScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,25 +298,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84B5482F206F805A00E3ADBA /* Build configuration list for PBXProject "UINavigationController" */ = {
+		8423DE362072833300A6B11A /* Build configuration list for PBXProject "UIScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84B54849206F805A00E3ADBA /* Debug */,
-				84B5484A206F805A00E3ADBA /* Release */,
+				8423DE502072833300A6B11A /* Debug */,
+				8423DE512072833300A6B11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84B5484B206F805A00E3ADBA /* Build configuration list for PBXNativeTarget "UINavigationController" */ = {
+		8423DE522072833300A6B11A /* Build configuration list for PBXNativeTarget "UIScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84B5484C206F805A00E3ADBA /* Debug */,
-				84B5484D206F805A00E3ADBA /* Release */,
+				8423DE532072833300A6B11A /* Debug */,
+				8423DE542072833300A6B11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84B5482C206F805A00E3ADBA /* Project object */;
+	rootObject = 8423DE332072833300A6B11A /* Project object */;
 }
