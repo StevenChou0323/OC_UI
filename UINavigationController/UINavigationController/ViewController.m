@@ -56,8 +56,8 @@ int conIndex = 1;
     UIBarButtonItem *btn5 = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(click)];
     self.toolbarItems = @[btn1,btn2,btn3,btn4,btn5];
     
-    self.navigationController.hidesBarsOnTap = YES;
-    self.navigationController.hidesBarsOnSwipe = YES;
+//    self.navigationController.hidesBarsOnTap = YES;
+//    self.navigationController.hidesBarsOnSwipe = YES;
 }
 
 -(void)click{
