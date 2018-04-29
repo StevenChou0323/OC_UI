@@ -13,6 +13,8 @@
 		844565BD209594D3004D5C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844565BB209594D3004D5C39 /* Main.storyboard */; };
 		844565BF209594D3004D5C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844565BE209594D3004D5C39 /* Assets.xcassets */; };
 		844565C2209594D3004D5C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844565C0209594D3004D5C39 /* LaunchScreen.storyboard */; };
+		844565CB2095956C004D5C39 /* MyRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 844565CA2095956C004D5C39 /* MyRequestConnection.m */; };
+		844565CE20959CE7004D5C39 /* MyRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844565CD20959CE7004D5C39 /* MyRequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		844565BE209594D3004D5C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844565C1209594D3004D5C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844565C3209594D3004D5C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844565C92095956C004D5C39 /* MyRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestConnection.h; sourceTree = "<group>"; };
+		844565CA2095956C004D5C39 /* MyRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestConnection.m; sourceTree = "<group>"; };
+		844565CC20959CE7004D5C39 /* MyRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestManager.h; sourceTree = "<group>"; };
+		844565CD20959CE7004D5C39 /* MyRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				844565B6209594D3004D5C39 /* AppDelegate.m */,
 				844565B8209594D3004D5C39 /* ViewController.h */,
 				844565B9209594D3004D5C39 /* ViewController.m */,
+				844565C92095956C004D5C39 /* MyRequestConnection.h */,
+				844565CA2095956C004D5C39 /* MyRequestConnection.m */,
+				844565CC20959CE7004D5C39 /* MyRequestManager.h */,
+				844565CD20959CE7004D5C39 /* MyRequestManager.m */,
 				844565BB209594D3004D5C39 /* Main.storyboard */,
 				844565BE209594D3004D5C39 /* Assets.xcassets */,
 				844565C0209594D3004D5C39 /* LaunchScreen.storyboard */,
@@ -154,6 +164,8 @@
 				844565BA209594D3004D5C39 /* ViewController.m in Sources */,
 				844565B7209594D3004D5C39 /* AppDelegate.m in Sources */,
 				844565B4209594D3004D5C39 /* main.m in Sources */,
+				844565CB2095956C004D5C39 /* MyRequestConnection.m in Sources */,
+				844565CE20959CE7004D5C39 /* MyRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

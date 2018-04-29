@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface MyRequestManager : NSObject
-
++(MyRequestManager *)sharedManager;
+-(void) addRequestToManager:(NSString *)urlStr finished:(void(^)(BOOL success, NSData *data))finish;
+@property(nonatomic,strong)NSDictionary *HTTPHeadersDic;
 @end

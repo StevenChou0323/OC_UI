@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyRequestManager.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    MyRequestManager *manager = [MyRequestManager sharedManager];
+    manager.HTTPHeadersDic = @{@"apikey":@"c925fbc1226c37b905a4d1e2a8cbbe99"};
+    [manager addRequestToManager:@"http://apis.baidu.com/showapi_open_bus/weather_showapi/areaid?area=%E5%8C%97%E4%BA%AC" finished:^(BOOL success, NSData *data) {
+        if(success){
+            NSLog(@"成功");
+            NSString *dataStr = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+            NSLog(@"%@",dataStr);
+        }
+    }];
 }
 
 
